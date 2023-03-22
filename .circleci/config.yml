@@ -6,3 +6,6 @@ jobs:
     docker:
       # Primary container image where all steps run
       - image: cimg/openjdk:17.0.5
+
+    steps:
+      - run: echo "Say hello to YAML!"
