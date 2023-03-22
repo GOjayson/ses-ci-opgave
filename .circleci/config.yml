@@ -1,0 +1,8 @@
+# CircleCI configuration file
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      # Primary container image where all steps run
+      - image: cimg/openjdk:17.0.5
